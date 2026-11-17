@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# MEEP / MPB large outputs
+*.h5
+*.out
+*-out/
+
+# Generated plots (regenerate from code)
+*.png
+!docs/figures/*.png
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
